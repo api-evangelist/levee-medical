@@ -1,17 +1,32 @@
 aid: levee-medical
 name: Levee Medical
-description: 'Levee Medical is a company surfaced via the API Evangelist harvest backlog (source: secondary-market)
-  and added to the network as a stub for full-pipeline profiling.'
+description: 'Levee Medical, Inc. is a privately held, clinical-stage medical device company headquartered
+  in Durham, North Carolina, developing the Voro Urologic Scaffold — a bioabsorbable implant designed
+  to support and stabilize the bladder neck and urethra following radical prostatectomy, in order to accelerate
+  the return of continence and reduce the risk of chronic post-prostatectomy urinary incontinence. The
+  device is investigational, is not approved for commercial sale, and is being evaluated in the FDA-approved
+  ARID II IDE multicenter randomized pivotal trial. The company was founded in 2018 and has raised Series
+  A and Series B financing. Levee Medical is a physical medical device manufacturer: it publishes no public
+  API, developer portal, SDK, or machine-readable specification, and its only web surface is a WordPress
+  marketing and clinical-trial site.'
+image: https://leveemedical.com/wp-content/uploads/2024/09/open-graph-image.png
 url: https://raw.githubusercontent.com/api-evangelist/levee-medical/refs/heads/main/apis.yml
 x-type: company
 x-source: harvest:secondary-market
-x-tier: stub
-x-tier-reason: harvest
+x-tier: profiled
+x-tier-reason: enrichment-pass-no-api-surface
 specificationVersion: '0.20'
 created: '2026-08-25'
 modified: '2026-08-25'
 tags:
 - Company
+- Medical Devices
+- Healthcare
+- MedTech
+- Urology
+- Prostate Cancer
+- Clinical Trials
+- Implantable Devices
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -19,5 +34,38 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/levee-medical-domain-security.yml
 - type: Website
-  url: https://www.nasdaqprivatemarket.com/
+  url: https://leveemedical.com/
+- type: Blog
+  url: https://leveemedical.com/feed/
+- type: PrivacyPolicy
+  url: https://leveemedical.com/privacy-policy/
+- type: TermsOfService
+  url: https://leveemedical.com/terms/
+- type: LLMsTxt
+  url: llms/levee-medical-llms.txt
+x-enrichment:
+  date: '2026-08-25'
+  status: minimal
+  artifacts_added: 3
+  pass: local-v1
+x-coverage:
+  state: none
+  reason: not-a-software-company
+  detail: Levee Medical manufactures a single investigational bioabsorbable implant (the Voro Urologic
+    Scaffold) and its entire web presence is a five-page WordPress marketing and clinical-trial site —
+    there is no developer subdomain (api./developer./docs./status.leveemedical.com are all NXDOMAIN) and
+    the only machine-readable endpoint on the domain is the default WordPress core REST API at /wp-json/,
+    which is CMS scaffolding rather than a product API.
+  evidence:
+  - url: https://leveemedical.com/openapi.json
+    status: 404
+  - url: https://leveemedical.com/.well-known/agent-card.json
+    status: 404
+  - url: https://leveemedical.com/llms.txt
+    status: 404
+  - url: https://leveemedical.com/wp-json/
+    status: 200
+  checked: '2026-08-25'

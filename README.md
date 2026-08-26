@@ -64,5 +64,10 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Levee Medical is a company surfaced via the API Evangelist harvest backlog (source: secondary-market) and added to the network as a stub for full-pipeline profiling.
-- https://www.nasdaqprivatemarket.com/
+Levee Medical, Inc. is a privately held, clinical-stage medical device company headquartered in Durham, North Carolina, developing the Voro Urologic Scaffold — a bioabsorbable implant designed to support and stabilize the bladder neck and urethra following radical prostatectomy, to accelerate the return of continence and reduce the risk of chronic post-prostatectomy urinary incontinence. The device is investigational and is being evaluated in the FDA-approved ARID II IDE pivotal trial.
+
+**No public API surface.** A 2026-08-25 enrichment pass found no developer portal, documentation, SDK, MCP server, agent card, or machine-readable specification on any Levee Medical host. This profile records that honest absence; see `x-coverage` in `apis.yml`.
+
+- Website: https://leveemedical.com/
+- Clinical / ARID II: https://leveemedical.com/clinical/
+- News (RSS): https://leveemedical.com/feed/

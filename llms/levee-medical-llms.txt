@@ -1,0 +1,57 @@
+# Levee Medical
+
+> Levee Medical, Inc. is a privately held, clinical-stage medical device company in
+> Durham, North Carolina, developing the Voro Urologic Scaffold — a bioabsorbable
+> implant designed to support and stabilize the bladder neck and urethra after radical
+> prostatectomy, to accelerate the return of continence and reduce chronic
+> post-prostatectomy urinary incontinence.
+
+<!--
+generated: 2026-08-25
+method: generated
+source: apis.yml + probed pages on https://leveemedical.com (https://leveemedical.com/llms.txt returned 404 on 2026-08-25)
+-->
+
+## What this company is
+
+- Founded 2018; headquartered at 4819 Emperor Blvd, Suite 400, Durham, NC 27703.
+- Sole product: the Voro Urologic Scaffold, an absorbable device placed during
+  robotic-assisted radical prostatectomy. It is INVESTIGATIONAL — not FDA approved and
+  not available for commercial sale.
+- Under evaluation in ARID II, an FDA-approved IDE multicenter randomized controlled
+  pivotal study.
+- Contact: info@leveemedical.com, +1 (919) 313-4520.
+
+## API surface
+
+Levee Medical publishes **no public API**. As of 2026-08-25 an enrichment pass found:
+
+- No developer portal, API reference, documentation site, SDK, CLI, or Postman collection.
+- No OpenAPI, Swagger, GraphQL SDL, AsyncAPI, gRPC/protobuf or WSDL contract at any
+  probed location on leveemedical.com or on the conventional API subdomains
+  (api./app./developer./docs./status./trust.leveemedical.com — all NXDOMAIN).
+- No MCP server and no A2A agent card; /.well-known/agent-card.json and
+  /.well-known/agent.json both return 404.
+- No packages under the company name on npm, PyPI, or the other public registries; no
+  GitHub organization.
+- The only machine-readable endpoint on the domain is the default WordPress core REST
+  API at https://leveemedical.com/wp-json/ (namespaces wp/v2, oembed/1.0, yoast/v1,
+  divi/v1, contact-form-7/v1 and other plugin routes). That is CMS scaffolding shipped
+  by WordPress and its plugins, not an API this company designed, documented, or
+  supports, and it is deliberately not cataloged as a Levee Medical API.
+
+This is an honest zero, not a gap in the profile: Levee Medical manufactures a physical
+implantable device, and software is not the product.
+
+## Pages
+
+- Home: https://leveemedical.com/
+- Clinical / ARID II study: https://leveemedical.com/clinical/
+- News feed (RSS): https://leveemedical.com/feed/
+- Privacy Policy: https://leveemedical.com/privacy-policy/
+- Terms: https://leveemedical.com/terms/
+
+## This profile
+
+- API Evangelist third-party profile: https://github.com/api-evangelist/levee-medical
+- Corrections, re-scores and removal are free: info@apievangelist.com
