@@ -9,6 +9,17 @@ description: 'Levee Medical, Inc. is a privately held, clinical-stage medical de
   A and Series B financing. Levee Medical is a physical medical device manufacturer: it publishes no public
   API, developer portal, SDK, or machine-readable specification, and its only web surface is a WordPress
   marketing and clinical-trial site.'
+deliveryModel:
+  model: saas
+  open_source: false
+  commercial: true
+  callable_host: false
+  label: Hosted service · you call their endpoint
+  confidence: medium
+  source:
+  - pricing
+  generated: '2026-08-28'
+  method: derived
 image: https://leveemedical.com/wp-content/uploads/2024/09/open-graph-image.png
 url: https://raw.githubusercontent.com/api-evangelist/levee-medical/refs/heads/main/apis.yml
 x-type: company
