@@ -64,10 +64,82 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Levee Medical, Inc. is a privately held, clinical-stage medical device company headquartered in Durham, North Carolina, developing the Voro Urologic Scaffold — a bioabsorbable implant designed to support and stabilize the bladder neck and urethra following radical prostatectomy, to accelerate the return of continence and reduce the risk of chronic post-prostatectomy urinary incontinence. The device is investigational and is being evaluated in the FDA-approved ARID II IDE pivotal trial.
+Levee Medical, Inc. is a privately held, clinical-stage medical device company headquartered in Durham, North Carolina, developing the Voro Urologic Scaffold — a bioabsorbable implant designed to support and stabilize the bladder neck and urethra following radical prostatectomy, in order to accelerate the return of continence and reduce the risk of chronic post-prostatectomy urinary incontinence. The device is investigational, is not approved for commercial sale, and is being evaluated in the FDA-approved ARID II IDE multicenter randomized pivotal trial. The company was founded in 2018 and has raised Series A and Series B financing. Levee Medical is a physical medical device manufacturer: it publishes no public API, developer portal, SDK, or machine-readable specification, and its only web surface is a WordPress marketing and clinical-trial site.
 
-**No public API surface.** A 2026-08-25 enrichment pass found no developer portal, documentation, SDK, MCP server, agent card, or machine-readable specification on any Levee Medical host. This profile records that honest absence; see `x-coverage` in `apis.yml`.
+**Areas:** Company · Medical Devices · Healthcare · Medical Technology · Urology · Prostate Cancer · Clinical Trials · Implantable Devices
 
-- Website: https://leveemedical.com/
-- Clinical / ARID II: https://leveemedical.com/clinical/
-- News (RSS): https://leveemedical.com/feed/
+## Levee Medical on APIs.io
+
+Everything profiled for Levee Medical is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/levee-medical/](https://apis.io/providers/levee-medical/)** — or go straight to one of the APIs or properties below.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Security (1)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Levee Medical Domain Security](https://apis.io/security/levee-medical/levee-medical-domain-security/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://leveemedical.com/)
+- [Blog](https://leveemedical.com/feed/)
+- [Terms of service](https://leveemedical.com/terms/)
+- [Privacy policy](https://leveemedical.com/privacy-policy/)
+
+## API Evangelist rating
+
+**Kin Score 10.1** — minimal · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 55.4 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 0.0 |
+| Developer ergonomics | 2.4 |
+| Access clarity | 21.1 |
+
+**Agent readiness 0.0** — human-only
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 10.9** — Health
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/levee-medical/](https://apis.io/providers/levee-medical/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Levee Medical: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/levee-medical/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
